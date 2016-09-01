@@ -1,0 +1,14 @@
+function isAvailable(id){
+  if ($("id").attr("state")==true){
+    return true;
+  }else{
+    return false;
+  }
+}
+function changeState(id){
+  if ($("id").attr("state")==true){
+    $("id").attr("state","false");
+  }else{
+    $("id").attr("state","true");
+  }
+}
